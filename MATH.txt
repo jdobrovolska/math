@@ -1,0 +1,43 @@
+#uzd 1
+a = int(input("введите значение переменной a "))
+b = float(input("введите значение переменной b "))
+print(round(b / a, 3))
+print(b%a)
+print(b**a)
+
+
+n = int(input("введите количество школьников "))
+k = int(input("введите количество яблок "))
+print(k//n, k%n)
+
+#uzd 2
+m = int(input("введите трехзначное число "))
+suma = 0
+edin = (m % 10)
+suma = suma + edin
+m = m//10
+des = (m % 10)
+suma = suma + des
+m = m//10
+suma = suma + m
+print (suma)
+
+#uzd 3
+c = float(input("введите число c "))
+d = float(input("введите число d "))
+print(c + d, "|", c - d, "|", c * d, "|", c//d, "|", c % d, "|", d**c)
+
+#uzd 4
+e = float(input("введите число e "))
+f = float(input("введите число f "))
+print((e+4*f)*(e-3*f)+e**2)
+
+#uzd 5
+t = int(input("введите время в минутах "))
+s = int(input("введите расстояние в километрах "))
+v = ((s*1000)/(t*60))
+print(v)
+
+#uzd 6
+g = int(input("введите число "))
+print(g % 2)
